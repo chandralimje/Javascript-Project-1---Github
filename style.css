@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #20002c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cbb4d4,
+    #20002c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cbb4d4,
+    #20002c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+    text-align: center;
+    margin: 1rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.col{
+  display: flex;
+  justify-content: space-around;
+}
+
+.frame{
+    background-color: rgba(134, 161, 39, 0.719);
+    width: 250px;
+    height: 350px;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.link{
+  color: rgb(67, 21, 194);
+  text-decoration: none;
+}
+
+.Img{
+    border-radius: 50%;
+    width: 50%;
+}
+
+.btn{
+    padding: 12px;
+    background-color: beige;
+    border-radius: 4.5px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: rgb(121, 87, 35);
+    transition: 1s;
+    color: whitesmoke;
+}
